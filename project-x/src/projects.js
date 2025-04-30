@@ -1,6 +1,5 @@
-import './styles/main.css';
-import './styles/Projects.css';
-import './components/modal.js'
+import './style.css';
+import './components/modal.js';
 
 import { renderNav } from './components/nav.js';
 
