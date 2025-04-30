@@ -1,0 +1,394 @@
+.text-wrapper {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .text {
+    max-width: 100%;
+    min-width: 40%;
+    text-align: center;
+    
+  }
+  .text h1 {
+    font-size: 9rem;
+    animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
+    font-family: herofont;
+  }
+  @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+  .text p {
+    font-size: 0.8rem;
+    animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
+  }
+  
+  
+  
+  .more-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: fit-content;
+    height: fit-content;
+    z-index: 6;
+    backdrop-filter: blur(10px);
+    background-color: #1d1b1b94;
+    border-radius: 45px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6em;
+  }
+  
+  /* Small blinking red dot */
+  .buttonLed {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    animation: blinking 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  }
+  
+  /* Blinking animation */
+  @keyframes blinking {  
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  
+  button:hover {
+    box-shadow: 0px 15px 20px rgba(var(--higlights));
+  
+    
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+  
+  .buttonLed {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .live {
+    animation: blinking 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  }
+  
+  @keyframes blinking {  
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  
+  
+  
+  
+  
+  
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes move-in{
+    0%{
+      transform:translateY(100vh);
+    }
+    100%
+    {
+      transform:translateY(0);
+    }
+  }
+  
+  
+  @keyframes move-out{
+    0%{
+      transform:translateY(0);
+    }
+    100%
+    {
+      transform:translateY(100vh);
+    }
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+  
+    justify-content: center;
+    align-items: flex-end;
+    animation: move-in 1s cubic-bezier(.39,.575,.565,1.000)both;
+  }
+  .modal-content h1{
+    font-size: 10rem;
+    font-family: modalfont;
+  }
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    padding: 10% ;
+    border: 1px solid #888;
+    width: 100%;
+    max-height: 100vh; /* Prevent overflow but allow space */
+    overflow-y: auto;  /* Enable scrolling inside if content overflows */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    display: flex;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: sticky;
+    top: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    align-self: flex-end;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    z-index: 13;
+  }
+  
+  .close:hover,
+  .close:focus {
+    scale: 1.05;
+    text-decoration: none;
+    cursor: pointer;
+    animation:vibrate .3s linear infinite both;
+   
+  }
+  @keyframes vibrate{0%{transform:translate(0)}20%{transform:translate(-1px,1px)}40%{transform:translate(-1px,-1px)}60%{transform:translate(1px,1px)}80%{transform:translate(1px,-1px)}100%{transform:translate(0)}}
+  .modal-header {
+    background: white;
+    width: 100%;
+    height: fit-content;
+    padding: 24px;
+    border-radius: 1em;
+    display: flex;
+  }
+  .header-project1{
+    background: linear-gradient( #ffffff, #e3e5ff);
+  }
+  .header-project2{
+    background: linear-gradient( #ffffff, #e0e0e0);
+  }
+  .header-project3{
+    background: linear-gradient(360deg,#ffffff, #fff1ea);
+  }
+  .header-project4{
+    background: linear-gradient(360deg,#ffffff, #f1e8ff);
+  }
+  .header-project5{
+    background: linear-gradient(360deg,#ffffff, #fff3e7); 
+  }
+  .header-project6{
+    background: linear-gradient(360deg,#ffffff, #becaff); 
+  }
+  .header-project7{
+    background: linear-gradient(360deg,#ffffff, #fff2bb); 
+  }
+  .header-project8{
+    background: linear-gradient(360deg,#ffffff, #d69cff); 
+  }
+  .header-project9{
+    background: linear-gradient(360deg,#ffffff, #ffe2ef); 
+  }
+  .header-project10{
+    background: linear-gradient(360deg,#ffffff, #e4ffc3); 
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .column-text{
+    height: 100%;
+    width: 100%;
+    max-width: 85%;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+  }
+  
+  .column-text h2{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .modal-column{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+  }
+  .modal-content img{
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    height: 68vh;
+    border-radius: 1em;
+    background-color: #0066ff1d;
+  }
+  
+  
+  .petica-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+    gap: 16px;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .petica-images img {
+    width: calc((100% - 3 * 16px) / 4); /* four images, 3 gaps */
+    height: 100%;
+    object-fit: cover; /* or 'contain' depending on your preference */
+    display: block;
+  }
+
+  .modal-text{
+    max-width: 40vw;
+    min-width: 40%;
+  }
+  
+  .card-stack-container {
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    height: fit-content;
+    min-height: 35em;
+    position: relative;
+    overflow: visible;
+    background-color: white;
+    border-radius: 20px;
+    transition: background-color 0.4s ease;
+  }
+  
+  .card-stack {
+    position: relative;
+    height: fit-content;
+    max-width: 100%;
+    width: 100vw;
+  }
+  
+  
+  .card {
+    position: absolute;
+    top: 0;
+    height: 18em;
+    aspect-ratio: 1√2;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    z-index: 1;
+    transform: rotate(calc(-5deg + var(--i) * 2deg));
+  }
+  
+  /* Use nth-child to spread cards out */
+  .card:nth-child(1) { left: 0%;      --i: -2; }
+  .card:nth-child(2) { left: 10%;     --i: 2; }
+  .card:nth-child(3) { left: 20%;     --i: -1; }
+  .card:nth-child(4) { left: 30%;     --i: 5; }
+  .card:nth-child(5) { left: 40%;     --i: -3; }
+  .card:nth-child(6) { left: 50%;     --i: 2; }
+  .card:nth-child(7) { left: 55%;     --i: 4; }
+  .card:nth-child(8) { left: 65%;     --i: -3; }
+  .card:nth-child(9) { left: 70%;     --i: 4; }
+  .card:nth-child(10) { left: 80%;     --i: 7; }
+  
+  .card:hover {
+    transform: scale(1.25) rotate(0deg);
+    z-index: 10;
+    cursor: pointer;
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  #modal10 .modal-content.header-project1 {
+    padding: 0px  10% 10% 10%;
+    
+  }
+  
+  
+  
+  

@@ -1,0 +1,61 @@
+@import url('hero.css');
+@import url('projects.css');
+@import url('nav.css');
+@import url('modal.css');
+@import url('responsive.css');
+@import url('about.css'); 
+
+html {
+    font-family: "ROBOTO", sans-serif;
+    scroll-behavior: smooth;
+    border-color: #D6DBD2;
+    background-color: #FAF6EF ;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  .body{
+    background-color: #000000;
+    font-size: 16px;
+  }
+  
+  h1{
+    
+    transition-delay: 200ms;
+    user-select: none;
+  
+  }
+  h2{
+    font-size: 32px;
+    transition-delay: 200ms;
+    user-select: none;
+  }
+  h3{
+    font-size: 26px;
+    transition-delay: 200ms;
+    user-select: none;
+  }
+  P{
+    font-size: 22px;
+    transition-delay: 200ms;
+    user-select: none;
+  }
+  
+  @font-face {
+    font-family: herofont;
+    src: url(../fonts/Dirtyline.ttf);
+  }
+  
+  @font-face {
+    font-family: modalfont;
+    src: url(../fonts/trade-gothic-lt-std.otf);
+  }
+  :root {
+    --primary: #D7B377;
+    --secondary: #385F71;
+    --higlights:#2B4162;
+  }
+  
+  
