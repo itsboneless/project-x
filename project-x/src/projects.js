@@ -25,7 +25,7 @@ export function renderProjects() {
             <div onclick="openModal('modal1')" class="grid-item">
                 <h2 class="Name">UI UX Internship</h2>
                 <h2 class="Date">2024</h2>
-                <img src="src/images/simptel copy.jpg">
+                <img src="./src/images/simptel copy.jpg">
                 <button class="more-button" onclick="openModal('modal1')">View Project</button>
             </div>
 
