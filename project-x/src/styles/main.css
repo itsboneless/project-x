@@ -1,8 +1,9 @@
-@import url('hero.css');
-@import url('projects.css');
 @import url('nav.css');
-@import url('modal.css');
+@import url('hero.css');
 @import url('about.css'); 
+@import url('projects.css');
+@import url('modal.css');
+
 
 html {
     font-family: "ROBOTO", sans-serif;
