@@ -25,35 +25,35 @@ export function renderProjects() {
             <div onclick="openModal('modal1')" class="grid-item">
                 <h2 class="Name">UI UX Internship</h2>
                 <h2 class="Date">2024</h2>
-                <img src="public/images/simptel copy.jpg">
+                <img src="./images/simptel copy.jpg">
                 <button class="more-button" onclick="openModal('modal1')">View Project</button>
             </div>
 
             <div onclick="openModal('modal2')" class="grid-item">
                 <h2 class="Name">Jony Ive ode website</h2>
                 <h2 class="Date">2025</h2>
-                <img src="public/images/jony-project.jpg">
+                <img src="./images/jony-project.jpg">
                 <button class="more-button" onclick="openModal('modal2')">View Project</button>
             </div>
 
             <div onclick="openModal('modal4')" class="grid-item">
                 <h2 class="Name">AIM Website redesign</h2>
                 <h2 class="Date">2024</h2>
-                <img src="public/images/aimx2.jpg">
+                <img src="./images/aimx2.jpg">
                 <button class="more-button" onclick="openModal('modal4')">View Project</button>
             </div>
 
              <!-- <div onclick="openModal('modal3')" class="grid-item">
               //  <h2 class="Name">F1 Driver Comparison</h2>
               //  <h2 class="Date">2025</h2>
-              //  <img src="public/images/f1.jpg">
+              //  <img src="./images/f1.jpg">
               //  <button class="more-button" onclick="openModal('modal3')">View Project</button>
             </div> -->
 
             <div onclick="openModal('modal5')" class="grid-item">
                 <h2 class="Name">Artist Website</h2>
                 <h2 class="Date">2022</h2>
-                <img src="public/images/maaike.jpg">
+                <img src="./images/maaike.jpg">
                 <button class="more-button" onclick="openModal('modal5')">View Project</button>
             </div>
 
@@ -61,7 +61,7 @@ export function renderProjects() {
 
                 <h2 class="Name">Brandguide</h2>
                 <h2 class="Date">2021</h2>
-                <img src="public/images/unx.png">
+                <img src="./images/unx.png">
                 <button class="more-button" onclick="openModal('modal6')">View Project</button>
             </div>
 
@@ -69,7 +69,7 @@ export function renderProjects() {
 
                 <h2 class="Name">Pets</h2>
                 <h2 class="Date">2021</h2>
-                <img src="public/images/petica.jpg">
+                <img src="./images/petica.jpg">
                 <button class="more-button" onclick="openModal('modal7')">View Project</button>
             </div>
 
@@ -77,7 +77,7 @@ export function renderProjects() {
 
                 <h2 class="Name">React Calculator</h2>
                 <h2 class="Date">2022</h2>
-                <img src="public/images/calc.png">
+                <img src="./images/calc.png">
                 <button class="more-button" onclick="openModal('modal8')">View Project</button>
 
             </div>
@@ -86,19 +86,19 @@ export function renderProjects() {
 
                 <h2 class="Name">kirby CSS</h2>
                 <h2 class="Date">2021</h2>
-                <img src="public/images/kirby.png">
+                <img src="./images/kirby.png">
                 <button class="more-button" onclick="openModal('modal9')">View Project</button>
 
             </div>
 
             <div onclick="openModal('modal10')" class="grid-item">
                 <h2 class="Name">Personal Projects</h2>
-                <img src="public/images/about.png">
+                <img src="./images/about.png">
                 <button class="more-button" onclick="openModal('modal10')">About Me</button>
             </div>
             <div onclick="openModal('modal10')" class="grid-item">
                 <h2 class="Name">About Me</h2>
-                <img src="public/images/me copy.jpg">
+                <img src="./images/me copy.jpg">
                 <button class="more-button" onclick="openModal('modal10')">About Me</button>
             </div>
         </div>
@@ -136,7 +136,7 @@ export function renderProjects() {
                         </div>
                     </div>
                 </div>
-                <img src="public/images/simptel copy.jpg">
+                <img src="./images/simptel copy.jpg">
                 <div class="text-container">
                     <div class="column-text">
                         <div class="modal-text">
@@ -225,7 +225,7 @@ export function renderProjects() {
                         </div>
                     </div>
                 </div>
-                <img src="public/images/jony-project.jpg">
+                <img src="./images/jony-project.jpg">
                 <div class="text-container">
                     <div class="column-text">
                         <div class="modal-text">
@@ -316,7 +316,7 @@ export function renderProjects() {
                         </div>
                     </div>
                 </div>
-                <img src="public/images/f1.jpg">
+                <img src="./images/f1.jpg">
                 <div class="text-container">
                     <div class="column-text">
                         <div class="modal-text">
@@ -402,7 +402,7 @@ export function renderProjects() {
 
                 <a data-fancybox data-type="pdf" href="https://drive.google.com/file/d/1Icn7gcX7VkEFQvMUTns4jMBsvC6oklxS/view?usp=drive_link">
 
-                    <img src="public/images/aim.jpg" alt="PDF Thumbnail" />
+                    <img src="./images/aim.jpg" alt="PDF Thumbnail" />
                 </a>
 
 
@@ -503,7 +503,7 @@ export function renderProjects() {
 
                 <a data-fancybox data-type="pdf" href="https://drive.google.com/file/d/1Qd3OJ7Ob9rXYj3JK12gGZh8TXIBv7Jlb/view?usp=drive_link">
 
-                    <img src="public/images/maaike copy.jpg" alt="PDF Thumbnail" />
+                    <img src="./images/maaike copy.jpg" alt="PDF Thumbnail" />
                 </a>
 
                 <div class="text-container">
@@ -583,7 +583,7 @@ export function renderProjects() {
                 </div>
                 <a data-fancybox data-type="pdf" href="https://drive.google.com/file/d/1sDGihjwOsCHBFqEuo8mL1G2NdoM75yNT/view?usp=drive_link">
 
-                    <img src="public/images/unx copy.jpg" alt="PDF Thumbnail" />
+                    <img src="./images/unx copy.jpg" alt="PDF Thumbnail" />
                 </a>
 
                 <div class="text-container">
@@ -648,7 +648,7 @@ export function renderProjects() {
                 </div>
                 <a data-fancybox data-type="pdf" href="https://drive.google.com/file/d/1Lsv7YL2alsBbWyY_d7dndZ3h8jYp3685/view?usp=drive_link">
 
-                    <img src="public/images/petica.jpg" alt="PDF Thumbnail" />
+                    <img src="./images/petica.jpg" alt="PDF Thumbnail" />
                 </a>
 
 
@@ -687,10 +687,10 @@ export function renderProjects() {
 
 
                 <div class="petica-images">
-                    <img src="public/images/petica1.png">
-                    <img src="public/images/petica4.png">
-                    <img src="public/images/petica3.png">
-                    <img src="public/images/petica2.png">
+                    <img src="./images/petica1.png">
+                    <img src="./images/petica4.png">
+                    <img src="./images/petica3.png">
+                    <img src="./images/petica2.png">
                 </div>
             </div>
         </div>
@@ -716,7 +716,7 @@ export function renderProjects() {
                         <p>React, Javascript, CSS</p>
                     </div>
                 </div>
-                <img src="public/images/calc.png">
+                <img src="./images/calc.png">
                 <div class="text-container">
                     <div class="column-text">
                         <div class="modal-text">
@@ -784,7 +784,7 @@ export function renderProjects() {
                         <p>Javascript, HTML, CSS</p>
                     </div>
                 </div>
-                <img src="public/images/kirby.png">
+                <img src="./images/kirby.png">
                 <div class="text-container">
                     <div class="column-text">
                         <div class="modal-text">
@@ -810,7 +810,7 @@ export function renderProjects() {
                 <div class="about-container">
                     <div class="about-column">
                         <div class="about-img">
-                            <img src="public/images/me copy.jpg">
+                            <img src="./images/me copy.jpg">
                         </div>
                         <H2>Jordan Philbert</H2>
                         <hr style="width: 10% ;">
@@ -862,8 +862,8 @@ export function renderProjects() {
                         <div class="card" data-bg="#C60000">
                             <a href="https://vimeo.com/1079394883" data-fancybox="gallery"
                                 data-caption="Lewis Hamilton Ferrari edit - After effects" data-type="video"
-                                data-thumb="public/images/LWF.jpg">
-                                <img src="public/images/LWF.jpg" alt="Card 2 thumbnail" />
+                                data-thumb="./images/LWF.jpg">
+                                <img src="./images/LWF.jpg" alt="Card 2 thumbnail" />
                             </a>
                         </div>
 
