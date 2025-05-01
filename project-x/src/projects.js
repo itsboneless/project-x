@@ -684,7 +684,18 @@ export function renderProjects() {
                         </div>
                     </div>
                 </div>
-
+                   <div class="text-container">
+                    <div class="column-text">
+                        <div class="modal-text">
+                            <h2>key learnings</h2>
+                        </div>
+                        <div class="column-text">
+                            <p>How can a digital pet suggestor be created so that it helps people choose the right pet
+                                for them
+                                without wasting time and money?</p>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="petica-images">
                     <img src="./images/petica1.png">
@@ -742,7 +753,7 @@ export function renderProjects() {
                 <div class="text-container">
                     <div class="column-text">
                         <div class="modal-text">
-                            <h2>Project Overview</h2>
+                            <h2>Conclusion</h2>
                         </div>
                         <div class="column-text">
                             <p>While the project was ultimately successful, it was more complex than I initially
