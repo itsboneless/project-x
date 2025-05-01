@@ -791,11 +791,29 @@ export function renderProjects() {
                             <h2>Challenge</h2>
                         </div>
                         <div class="column-text">
-                            <p>Creating Kirby with just CSS is not much of a challenge because with transform,
-                                border-radius,
-                                box-shadow, it is easy to create. It’s because everything can be drawn with circles -
-                                and
-                                border-radius is perfect for that.</p>
+                            <p>Recreate the iconic character Kirby using only CSS. No images, no SVGs—just HTML and CSS.</p>
+                        </div>
+                    </div>
+                    <div class="column-text">
+                        <div class="modal-text">
+                            <h2>Process</h2>
+                        </div>
+                        <div class="column-text">
+                            <p>I started by placing a reference image in the center. Then, I positioned each part using absolute positioning and researched how to create oval shapes with CSS. Finally, I wrapped the body elements in a div to add animation.</p>
+                        </div>
+                    </div>
+                    <div class="column-text">
+                        <div class="modal-text">
+                            <h2>Key Learnings</h2>
+                        </div>
+                       <div style="flex-direction: column; font-size: 22px;" class="column-text ">
+                            <li>Mastering Absolute & Relative Positioning</li>
+                            <li>Layering with Z-Index</li>
+                            <li>Transformations for Rotation and Scale</li>
+                            <li>Use of Box Shadows and Borders as Design Elements</li>
+                            <li>CSS Animation Basics</li>
+                            <li>Color Layering and Detailing</li>
+
                         </div>
                     </div>
                 </div>
@@ -814,8 +832,8 @@ export function renderProjects() {
                         </div>
                         <H2>Jordan Philbert</H2>
                         <hr style="width: 10% ;">
-                        <H2>Front-end developer</H2>
-                        <H2>UX/UI DESIGNER</H2>
+                        <H3>Front-end developer</H3>
+                        <H3>UX/UI DESIGNER</H3>
                     </div>
                     <div class="about-column">
                         <H2>Hi There 😄👋🏼</H2>

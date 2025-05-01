@@ -144,22 +144,6 @@
 
   
   @media (max-width: 920px) {
-  
-    .body{
-        
-        max-width:100%;
-    }
-    .text h1{
-        font-size: 3rem;
-        transition-delay: 200ms;
-        max-width:100%;
-    }
-    .text p{
-        font-size: 0.8rem;
-    }
-    .text {
-        padding: 40px;
-    }
     .grid-item h1{
         font-size: 1.5em;
     }
@@ -167,48 +151,6 @@
     .grid-item h2{
       font-size: 1.5em;
   }
-  
-  
-    
-    .background{
-        margin:0;
-        flex-direction: column;
-        width : 98vw;
-        max-width:100%;
-        justify-content: center;
-       
-    }
-    .background-column:nth-child(1) {
-        
-        height: 100%;
-        top: 0;
-        justify-content: center;
-    }
-    .background-column:nth-child(2) {
-        
-      
-        justify-content: center;
-       
-    }
-    .background-column:nth-child(3) {
-       
-       
-        padding: 0;
-        justify-content: center;
-    }
-    .lastupdated{
-        position: relative;
-        padding: 0;
-        align-items:flex-end ;
-        justify-content: center;
-    }
-    .weather-container{
-       position: relative;
-        padding: 2rem;
-        align-items:flex-end ;
-        justify-content: center;
-        
-    }
     .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -283,7 +225,7 @@
     }
   .column-text{
     flex-direction: column;
-    max-width: 100%;
+    max-width: 100%!important;
     
   }
   .about-container{
@@ -309,26 +251,6 @@
     text-shadow: 1px 1px 25px rgba(0,0,0,0.8);
    
   }
-  .card-stack{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .card{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    height: 300px;
-    left: 0% !important;
-  }
-  .card:nth-child(1) {top: 0%;}
-  .card:nth-child(2) {top:-30%;}
-  .card:nth-child(3) {top:-60%;}
-  .card:nth-child(4) {top:-90%;}
-  .card:nth-child(5) {top:-120%;}
-  .card:nth-child(6) {top:-150%;}
-  .card:nth-child(7) {top:-185%;}
-  .card:nth-child(8) {top:-205%;}
-  .card:nth-child(9) {top:-270%;}
-  .card:nth-child(10){top:-300%;}
+  
   }
   
