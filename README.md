@@ -34,9 +34,10 @@ Key technologies used:
 To run the project locally:
 ```
 1. Clone the repository from GitHub.
-2. Install dependencies using `npm install`.
-3. Start the development server with `npm run dev`.
-4. Open your browser at `http://localhost:5173`.
+2. Cd project-x
+3. Install dependencies using `npm install`.
+4. Start the development server with `npm run dev`.
+5. Open your browser at `http://localhost:5173`.
 ```
 ## 6. Why These Tools?
 
